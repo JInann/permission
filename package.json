@@ -2,13 +2,17 @@
   "name": "permission",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "dev": "rollup -c -w",
     "build": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JInann/permission.git"
+  },
+  "author": "xh.j",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.8.7",
